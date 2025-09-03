@@ -18,7 +18,7 @@ public class Main {
         stateHairStyle();
         stateFavoriteFood();
         System.out.println();
-        printCircleStats();
+        printCircleStats(5.0);
         System.out.println();
         printMathStuffs(5, 3);       
     }
@@ -60,11 +60,9 @@ public class Main {
     /**
      * Void Method to print out circle stats.
      */ 
-    public static void printCircleStats() {
+    public static void printCircleStats(double radius) {
 //States the final value for PI.
  final double pi = 3.14;
-//States radius
-    double radius = 4.0; 
 //Formula for Diameter
     double diameter = radius * 2;
 //Formula for area of a circle 
