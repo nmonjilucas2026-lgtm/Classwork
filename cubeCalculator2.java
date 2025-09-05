@@ -5,7 +5,7 @@
 public class Main {
     public static void main(String[] args)
     {
-         //declares the side length of a cube      
+        //declares the side length of a cube      
         double sideLength = 21;
           
         //Formula for the volume of a cube: a^3
