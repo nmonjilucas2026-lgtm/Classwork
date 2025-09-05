@@ -1,23 +1,24 @@
 
 /**
-	 *1. Create a nonvoid method called giveName() that returns your name. 
-	 *Repeat this task for giveEyeColor(), giveHairStyle(), giveBestFriend(), and giveFavoriteFood(). 
-	 *Then, call giveName(), giveHairStyle, and giveFavoriteFood(). Use the calls to make a full print statement. 
+*1. Create a nonvoid method called giveName() that returns your name. 
+Repeat this task for giveEyeColor(), giveHairStyle(), giveBestFriend(), and giveFavoriteFood(). 
+Then, call giveName(), giveHairStyle, and giveFavoriteFood(). Use the calls to make a full print 
+statement. 
 
-2. Create a nonvoid method getCircleStats() that is passed a double (meant to represent a circle's radius) and calculates 
-then returns the radius, diameter, circumference, and area of the circle. Call the method in a print statement or variable 
-declaration in order to make a complete print statement of all the properties. 
+2. Create a nonvoid method getCircleStats() that is passed a double (meant to represent a circle's radius) 
+and calculates then returns the radius, diameter, circumference, and area of the circle. 
+Call the method in a print statement or variable declaration in order to make a complete print 
+statement of all the properties. 
 
-3. Create nonvoid methods that are passed two ints and returns their sum, difference, product, quotient, and the remainder 
-(using modulus) of the first number modulus the second number; all operations should be their own respective methods. 
-Call them inside print statements to make sure they work. 
-	 */
+3. Create nonvoid methods that are passed two ints and returns their sum, difference, product,
+quotient, and the remainder (using modulus) of the first number modulus the second number; 
+all operations should be their own respective methods. Call them inside print statements to make sure they work. 
+*/
 
-public class NonVoidMethodsIntro {
-
-	   
+public class NonVoidMethodsIntro 
+{   
 	    // Calls the stated non-void method
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 	        System.out.println(giveName());
 	        System.out.println(giveHairStyle());
 	        System.out.println(giveFavoriteFood());
@@ -65,7 +66,8 @@ public class NonVoidMethodsIntro {
 	    /**
 	     * Non-Void Method to return the circle statistics as a String
 	     */
-	    public static String getCircleStats(double radius) {
+	   
+	public static String getCircleStats(double radius) {
 	    	// States the final value for PI
 	    	final double pi = 3.14;
 
@@ -93,7 +95,8 @@ public class NonVoidMethodsIntro {
 	    		    int product = num1 * num2;
 	    		    int quotient = num1 / num2;
 	    		    int remainder = num1 % num2;
-	    		//States the sum, difference, product, quotient, and remainder.
+	    		
+				//States the sum, difference, product, quotient, and remainder.
 	    		    return "Sum: " + sum + ", " +
 	    	    	"Difference: " + difference + ", " +
 	    	    	"Product: " + product + ", " +
