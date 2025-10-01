@@ -53,6 +53,8 @@ withoutEnd("Hello") → "ell"
 withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
 */
+
+//knew what I needed, but didn't know how to put it--ultimately I searched it up after multiple failed attempts
 public String withoutEnd(String str) {
     String middle = str.substring(1, str.length() - 1);
     return middle;
