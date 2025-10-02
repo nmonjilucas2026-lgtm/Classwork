@@ -16,7 +16,7 @@ public class Rectangle {
 	}
 			
 	/*
-	 *  Returns the width of a rectangle
+	 *  Returns the width of this rectangle
 	 */
 	public double getWidth() 
 	{
@@ -24,7 +24,7 @@ public class Rectangle {
 	}
 			
 	/*
-	 *  Returns the length of a rectangle
+	 *  Returns the length of this rectangle
 	 */
 	public double getLength() 
 	{
@@ -32,7 +32,7 @@ public class Rectangle {
 	}
 			
 	/*
-	 *  Calculates and returns the area of a rectangle
+	 *  Calculates and returns the area of this rectangle
 	 */
 		public double getArea() 
 	{
@@ -40,7 +40,7 @@ public class Rectangle {
 	}
 			
 	/*
-	 * Calculates and returns the perimeter of a rectangle
+	 * Calculates and returns the perimeter of this rectangle
 	 */
 		public double getPerimeter() 
 	{
