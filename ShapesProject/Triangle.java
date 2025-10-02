@@ -14,28 +14,28 @@ public class Triangle {
 	}
 
 	/*
-	 *  Returns the base of a triangle
+	 *  Returns the base of this triangle
 	 */
 	public double getBase() {
 		return base;
 	}
 
 	/*
-	 *  Returns the height of a triangle
+	 *  Returns the height of this triangle
 	 */
 	public double getHeight() {
 		return height;
 	}
 
 	/*
-	 * Calculates and returns the area of a triangle
+	 * Calculates and returns the area of this triangle
 	 */
 	public double getArea() {
 		return (0.5 * base * height);
 	}
 
 	/*
-	 *  Calculates and returns the perimeter of a triangle
+	 *  Calculates and returns the perimeter of this triangle
 	 */
 	public double getPerimeter() {
 		return (3 * base);
