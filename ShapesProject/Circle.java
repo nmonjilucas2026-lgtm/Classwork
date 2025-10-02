@@ -7,7 +7,7 @@ public class Circle {
 	private final double pi = 3.14;
 	private double radius;
 		
-	
+	// Constructor
 	public Circle(double r)
 	{
 		radius = r;
