@@ -14,7 +14,7 @@ public class Square {
 	}
 			
 	/*
-	 * Returns the side length of a square
+	 * Returns the side length of this square
 	 */
 		public double getSideLength() 
 	{
@@ -22,7 +22,7 @@ public class Square {
 	}
 			
 	/*
-	 * Calculates and returns the perimeter of a square
+	 * Calculates and returns the perimeter of this square
 	 */
 		public double getPerimeter() 
 	{
@@ -30,7 +30,7 @@ public class Square {
 	}
 			
 	/*
-	 * Calculates and returns the area of a square
+	 * Calculates and returns the area of this square
 	 */
 		public double getArea() 
 	{
