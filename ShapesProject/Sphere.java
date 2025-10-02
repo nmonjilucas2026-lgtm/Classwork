@@ -15,7 +15,7 @@ public class Sphere {
 	}
 			
 	/*
-	 *  Returns the radius of a sphere
+	 *  Returns the radius of this sphere
 	 */
 	public double getRadius() 
 	{
@@ -23,7 +23,7 @@ public class Sphere {
 	}
 			
 	/*
-	 * Calculates and returns the circumference of a sphere's equator
+	 * Calculates and returns the circumference of this sphere's equator
 	 */
 	public double getCircumference() 
 	{
@@ -31,7 +31,7 @@ public class Sphere {
 	}
 			
 	/*
-	 * Calculates and returns the surface area of a sphere
+	 * Calculates and returns the surface area of this sphere
 	 */
 	public double getArea() 
 	{
@@ -39,7 +39,7 @@ public class Sphere {
 	}
 	
 	/*
-	 * Calculates and returns the volume of a sphere
+	 * Calculates and returns the volume of this sphere
 	 */
 	public double getVolume() 
 	{
