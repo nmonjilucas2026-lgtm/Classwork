@@ -16,49 +16,49 @@ public class Prism {
 	}
 
 	/*
-	 *  Returns the length of a prism
+	 *  Returns the length of this prism
 	 */
 	public double getLength() {
 		return length;
 	}
 	
 	/*
-	 *  Returns the width of a prism
+	 *  Returns the width of this prism
 	 */
 	public double getWidth() {
 		return width;
 	}
 
 	/*
-	 *  Returns the height of a prism
+	 *  Returns the height of this prism
 	 */
 	public double getHeight() {
 		return height;
 	}
 
 	/*
-	 * Calculates and returns the area of a prism's base
+	 * Calculates and returns the area of this prism's base
 	 */
 	public double getArea() {
 		return (length * width);
 	}
 
-	// Calculates and returns the perimeter of a prism's base
+	// Calculates and returns the perimeter of this prism's base
 	public double getPerimeter() {
 		return (2 * (length + width));
 	}
 
-	// Calculates and returns the surface area of a prism
+	// Calculates and returns the surface area of this prism
 		public double getSurfaceArea() {
 			return (2 * (length * width + length * height + width * height));
 	}
 		
-	// Calculates and returns the volume of a prism
+	// Calculates and returns the volume of this prism
 	public double getVolume() {
 		return (length * width * height);
 	}
 
-	// Prints out the description of a prism
+	// Prints out the description of this prism
 	public static void stateShape() {
 		System.out.println("This class generates Prism shapes.");
 	}
