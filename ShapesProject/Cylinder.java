@@ -17,7 +17,7 @@ public class Cylinder {
 	}
 			
 	/*
-	 *  Returns the radius of a cylinder
+	 *  Returns the radius of this cylinder
 	 */
 	public double getRadius() 
 	{
@@ -25,14 +25,14 @@ public class Cylinder {
 	}
 	
 	/*
-	 *  Returns the height of a cylinder
+	 *  Returns the height of this cylinder
 	 */
 	public double getHeight() {
 		return height;
 	}
 	
 	/*
-	 * Calculates and returns the base circumference of a cylinder
+	 * Calculates and returns the base circumference of this cylinder
 	 */
 	public double getCircumference() 
 	{
@@ -40,7 +40,7 @@ public class Cylinder {
 	}
 			
 	/*
-	 * Calculates and returns the base area of a cylinder
+	 * Calculates and returns the base area of this cylinder
 	 */
 	public double getArea() 
 	{
@@ -48,7 +48,7 @@ public class Cylinder {
 	}
 	
 	/*
-	 * Calculates and returns the surface area of a cylinder
+	 * Calculates and returns the surface area of this cylinder
 	 */
 	public double getSurfaceArea() 
 	{
@@ -56,7 +56,7 @@ public class Cylinder {
 	}
 			
 	/*
-	 * Calculates and returns the volume of a cylinder
+	 * Calculates and returns the volume of this cylinder
 	 */
 	public double getVolume() 
 	{
