@@ -13,7 +13,7 @@ public class Cube {
 	}
 			
 	/*
-	 * Returns the side length of a cube.
+	 * Returns the side length of this cube.
 	 */
 	public double getSideLength() 
 	{
@@ -21,7 +21,7 @@ public class Cube {
 	}
 		
 	/*
-	 * Calculates and returns the area of one face of a cube
+	 * Calculates and returns the area of one face of this cube
 	 */
 	public double getFace() 
 	{
@@ -29,7 +29,7 @@ public class Cube {
 	}	
 		
 	/*
-	 *  Calculates and returns the perimeter of one face of a cube
+	 *  Calculates and returns the perimeter of one face of this cube
 	 */
 	public double getPerimeter() 
 	{
@@ -37,7 +37,7 @@ public class Cube {
 	}
 		
 	/*
-	 * Calculates and returns the surface area of a cube
+	 * Calculates and returns the surface area of this cube
 	 */
 	public double getSurfaceArea() 
 	{
@@ -45,7 +45,7 @@ public class Cube {
 	}	
 	
 	/*
-	 * Calculates the cubic volume
+	 * Calculates the volume of this cube
 	 */
 	public double getVolume() 
 	{
@@ -54,7 +54,7 @@ public class Cube {
 			
 		
 	/*
-	 * Calculates and returns the diagonal of one face of the cube
+	 * Calculates and returns the diagonal of one face of this cube
 	 */
 	public double getDiagonal() 
 	{
