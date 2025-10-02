@@ -14,7 +14,7 @@ public class Circle {
 	}
 			
 	/*
-	 *  Returns the radius of a circle
+	 *  Returns the radius of this circle
 	 */
 	public double getRadius() 
 	{
@@ -22,7 +22,7 @@ public class Circle {
 	}
 			
 	/*
-	 * Calculates and returns the circumference of a circle
+	 * Calculates and returns the circumference of this circle
 	 */
 	public double getCircumference() 
 	{
@@ -30,7 +30,7 @@ public class Circle {
 	}
 			
 	/*
-	 * Calculates and returns the area of a circle
+	 * Calculates and returns the area of this circle
 	 */
 	public double getArea() 
 	{
