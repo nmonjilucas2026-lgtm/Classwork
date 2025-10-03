@@ -432,9 +432,9 @@ public class ShapesMain {
 		System.out.println("Prism Perimeter: " + myPrism2.getPerimeter());
 		System.out.println("Prism Volume: " + myPrism2.getVolume());
 		System.out.println("Prism Surface Area: " + myPrism2.getSurfaceArea());
-		myPrism1.setLength(63.0);
-		myPrism1.setWidth(54.0);
-		myPrism1.setHeight(4.0);
+		myPrism2.setLength(63.0);
+		myPrism2.setWidth(54.0);
+		myPrism2.setHeight(4.0);
 		System.out.println("Updated Length: " + myPrism2.getLength());
 		System.out.println("Updated Width: " + myPrism2.getWidth());
 		System.out.println("Updated Height: " + myPrism2.getHeight());
@@ -454,9 +454,9 @@ public class ShapesMain {
 		System.out.println("Prism Perimeter: " + myPrism3.getPerimeter());
 		System.out.println("Prism Volume: " + myPrism3.getVolume());
 		System.out.println("Prism Surface Area: " + myPrism3.getSurfaceArea());
-		myPrism1.setLength(8.0);
-		myPrism1.setWidth(43.0);
-		myPrism1.setHeight(14.0);
+		myPrism3.setLength(8.0);
+		myPrism3.setWidth(43.0);
+		myPrism3.setHeight(14.0);
 		System.out.println("Updated Length: " + myPrism3.getLength());
 		System.out.println("Updated Width: " + myPrism3.getWidth());
 		System.out.println("Updated Height: " + myPrism3.getHeight());
