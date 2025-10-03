@@ -11,7 +11,6 @@ public class ShapesMain {
 		Circle myCirc3 = new Circle(6.0); //instantiates my circ3's radius
 		
 		System.out.println("--- Circle 1 ---");
-		
 		System.out.println("Circle Radius: " + myCirc1.getRadius());
 		System.out.println("Circumference: " + myCirc1.getCircumference());
 		System.out.println("Area: " + myCirc1.getArea());
@@ -21,9 +20,37 @@ public class ShapesMain {
 		System.out.println("Updated Area: " + myCirc1.getArea());
 		System.out.println("Circle Degrees: " + Circle.getDegrees() + " degrees");
 		Circle.stateShape();
+
+		System.out.println();
+
+		System.out.println("--- Circle 2 ---");
+		System.out.println("Circle Radius: " + myCirc2.getRadius());
+		System.out.println("Circumference: " + myCirc2.getCircumference());
+		System.out.println("Area: " + myCirc2.getArea());
+		myCirc2.setRadius(10.0);
+		System.out.println("Updated Radius: " + myCirc2.getRadius());
+		System.out.println("Updated Circumference: " + myCirc2.getCircumference());
+		System.out.println("Updated Area: " + myCirc2.getArea());
+		System.out.println("Circle Degrees: " + Circle.getDegrees() + " degrees");
+		Circle.stateShape();
+
+		System.out.println();
+
+		System.out.println("--- Circle 3 ---");
+		System.out.println("Circle Radius: " + myCirc3.getRadius());
+		System.out.println("Circumference: " + myCirc3.getCircumference());
+		System.out.println("Area: " + myCirc3.getArea());
+		myCirc2.setRadius(31.0);
+		System.out.println("Updated Radius: " + myCirc3.getRadius());
+		System.out.println("Updated Circumference: " + myCirc3.getCircumference());
+		System.out.println("Updated Area: " + myCirc3.getArea());
+		System.out.println("Circle Degrees: " + Circle.getDegrees() + " degrees");
+		Circle.stateShape();
+
 		
 		System.out.println();
 		System.out.println();
+
 		
 		/**
 		 * SQUARE CLASS
@@ -31,9 +58,8 @@ public class ShapesMain {
 		Square mySquare1 = new Square(5.0); //instantiates my square1's side length
 		Square mySquare2 = new Square(9.0); //instantiates my square2's side length
 		Square mySquare3 = new Square(10.0); //instantiates my square3's side length
-	
+
 		System.out.println("--- Square 1 ---");
-		
 		System.out.println("Square Length: " + mySquare1.getSideLength());
 		System.out.println("Perimeter: " + mySquare1.getPerimeter());
 		System.out.println("Area:  " + mySquare1.getArea());
@@ -43,9 +69,37 @@ public class ShapesMain {
 		System.out.println("Updated Area: " + mySquare1.getArea());
 		System.out.println("Square Degrees: " + Square.getDegrees());
 		Square.stateShape();
+
+		System.out.println();
+		
+		System.out.println("--- Square 2 ---");
+		System.out.println("Square Length: " + mySquare2.getSideLength());
+		System.out.println("Perimeter: " + mySquare2.getPerimeter());
+		System.out.println("Area:  " + mySquare2.getArea());
+		mySquare1.setSideLength(12.0);
+		System.out.println("Updated Length: " + mySquare2.getSideLength());
+		System.out.println("Updated Perimeter: " + mySquare2.getPerimeter());
+		System.out.println("Updated Area: " + mySquare2.getArea());
+		System.out.println("Square Degrees: " + Square.getDegrees());
+		Square.stateShape();
+
+		System.out.println();
+		
+		System.out.println("--- Square 3 ---");
+		System.out.println("Square Length: " + mySquare3.getSideLength());
+		System.out.println("Perimeter: " + mySquare3.getPerimeter());
+		System.out.println("Area:  " + mySquare3.getArea());
+		mySquare1.setSideLength(24.0);
+		System.out.println("Updated Length: " + mySquare3.getSideLength());
+		System.out.println("Updated Perimeter: " + mySquare3.getPerimeter());
+		System.out.println("Updated Area: " + mySquare3.getArea());
+		System.out.println("Square Degrees: " + Square.getDegrees());
+		Square.stateShape();
+
 		
 		System.out.println();
 		System.out.println();
+
 		
 		/**
 		 * RECTANGLE CLASS
@@ -55,7 +109,6 @@ public class ShapesMain {
 		Rectangle myRectangle3 = new Rectangle(2, 4); //instantiates my rectangle3's length and width
 	
 		System.out.println("--- Rectangle 1 ---");
-		
 		System.out.println("Rectangle Length: " + myRectangle1.getLength());
 		System.out.println("Rectangle Width: " + myRectangle1.getWidth());
 		System.out.println("Perimeter: " + myRectangle1.getPerimeter());
@@ -67,9 +120,41 @@ public class ShapesMain {
 		System.out.println("Updated Area: " + myRectangle1.getArea());
 		System.out.println("Rectangle Degrees: " + Rectangle.getDegrees());
 		Rectangle.stateShape();
+
+		System.out.println();
+		
+		System.out.println("--- Rectangle 2 ---");
+		System.out.println("Rectangle Length: " + myRectangle2.getLength());
+		System.out.println("Rectangle Width: " + myRectangle2.getWidth());
+		System.out.println("Perimeter: " + myRectangle2.getPerimeter());
+		System.out.println("Area: " + myRectangle2.getArea());
+		myRectangle1.setLength(27);
+		myRectangle1.setWidth(83);
+		System.out.println("Updated Length: " + myRectangle2.getLength());
+		System.out.println("Updated Perimeter: " + myRectangle2.getPerimeter());
+		System.out.println("Updated Area: " + myRectangle2.getArea());
+		System.out.println("Rectangle Degrees: " + Rectangle.getDegrees());
+		Rectangle.stateShape();
+
+		System.out.println();
+		
+		System.out.println("--- Rectangle 3 ---");
+		System.out.println("Rectangle Length: " + myRectangle3.getLength());
+		System.out.println("Rectangle Width: " + myRectangle3.getWidth());
+		System.out.println("Perimeter: " + myRectangle3.getPerimeter());
+		System.out.println("Area: " + myRectangle3.getArea());
+		myRectangle1.setLength(53);
+		myRectangle1.setWidth(72);
+		System.out.println("Updated Length: " + myRectangle3.getLength());
+		System.out.println("Updated Perimeter: " + myRectangle3.getPerimeter());
+		System.out.println("Updated Area: " + myRectangle3.getArea());
+		System.out.println("Rectangle Degrees: " + Rectangle.getDegrees());
+		Rectangle.stateShape();
+
 		
 		System.out.println();
 		System.out.println();
+
 		
 		/**
 		 * TRIANGLE CLASS
@@ -79,7 +164,6 @@ public class ShapesMain {
 		Triangle myTriangle3 = new Triangle(6, 3); //instantiates my triangle3's base and height
 
 		System.out.println("--- Triangle 1 ---");
-		
 		System.out.println("Triangle Base: " + myTriangle1.getBase());
 		System.out.println("Triangle Height: " + myTriangle1.getHeight());
 		System.out.println("Area: " + myTriangle1.getArea());
@@ -90,9 +174,35 @@ public class ShapesMain {
 		System.out.println("Updated Area: " + myTriangle1.getArea());
 		System.out.println("Triangle Degrees: " + Triangle.getDegrees());
 		Triangle.stateShape();
+
+		System.out.println("--- Triangle 2 ---");
+		System.out.println("Triangle Base: " + myTriangle1.getBase());
+		System.out.println("Triangle Height: " + myTriangle1.getHeight());
+		System.out.println("Area: " + myTriangle1.getArea());
+		System.out.println("Perimeter : " + myTriangle1.getPerimeter());
+		myTriangle1.setBase(26);
+		myTriangle1.setHeight(91.2);
+		System.out.println("Updated Base: " + myTriangle1.getBase());
+		System.out.println("Updated Area: " + myTriangle1.getArea());
+		System.out.println("Triangle Degrees: " + Triangle.getDegrees());
+		Triangle.stateShape();
+		
+		System.out.println("--- Triangle 3 ---");
+		System.out.println("Triangle Base: " + myTriangle1.getBase());
+		System.out.println("Triangle Height: " + myTriangle1.getHeight());
+		System.out.println("Area: " + myTriangle1.getArea());
+		System.out.println("Perimeter : " + myTriangle1.getPerimeter());
+		myTriangle1.setBase(13.8);
+		myTriangle1.setHeight(12);
+		System.out.println("Updated Base: " + myTriangle1.getBase());
+		System.out.println("Updated Area: " + myTriangle1.getArea());
+		System.out.println("Triangle Degrees: " + Triangle.getDegrees());
+		Triangle.stateShape();
+
 		
 		System.out.println();
 		System.out.println();
+
 		
 		/**
 		 * CUBE CLASS
