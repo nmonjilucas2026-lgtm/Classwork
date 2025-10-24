@@ -27,3 +27,13 @@ public boolean in1To10(int n, boolean outsideMode) {
     return false;
   }
 }
+
+//old35
+public boolean old35(int n) {
+  if ((n % 5 == 0)  != (n % 3 == 0)) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
