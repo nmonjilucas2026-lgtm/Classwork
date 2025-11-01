@@ -16,7 +16,7 @@ public class MontyHallProject {
 		//Welcoming Message + Explanation of the Game
 		System.out.println("Welcome to Monty Hall Game Show!");
 		System.out.println("There are three doors... One containing a car behind it.");		
-		System.out.println("When you choose one of these doors, I the game host will reveal a false one.");
+		System.out.println("When you the player, choose one of these doors, I the game host will reveal a false one.");
 		System.out.println("Then you can either choose to switch or stay.");
 		System.out.println("Let's begin!");
 		
@@ -29,12 +29,12 @@ public class MontyHallProject {
 	 */
 		public static void gameBegin () {
 			int winDoor = (int)(Math.random() * (3) + 1); // Randomly assign one of the three doors to hide the prize.
-			chooseDoor(winDoor); //Asks and allows the user to then choose the door of their liking.		
+			chooseDoor(winDoor); //Asks and allows the player to then choose the door of their liking.		
 	}
 		
 		/*
-		 * Allows the user to choose a door from 1-3.
-		 * If the user gives an invalid answer, it ends the game.
+		 * Allows the player to choose a door from 1-3.
+		 * If the player gives an invalid answer, it ends the game.
 		 */
 		public static void chooseDoor(int winDoor) {
 			System.out.println("Choose a door! 1, 2, or 3.");
@@ -52,7 +52,7 @@ public class MontyHallProject {
 				playerDoor = 3;
 			}
 			else {
-			System.out.print("User didn't give a proper answer. End :(");
+			System.out.print("Player didn't give a proper answer. End :(");
 			return; 
 			}
 			
@@ -60,7 +60,7 @@ public class MontyHallProject {
 			int doorToReveal = revealDoor(playerDoor, winDoor);
 			System.out.println("The Host reveals a door... It's door " + doorToReveal + "! It's empty!");
 			
-			//Asks the user to either switch or stay with the door they chose
+			//Asks the player to either switch or stay with the door they chose
 			switchOrStay(playerDoor, doorToReveal, winDoor);
 	}
 	
