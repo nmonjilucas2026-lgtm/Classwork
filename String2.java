@@ -12,8 +12,8 @@ public String doubleChar(String str) {
   
   for (int num = 0; num < str.length(); num++) {
     char character = str.charAt(num);
-    doublePrint += character;
-    doublePrint += character;
+    doublePrint = doublePrint + character;
+    doublePrint = doublePrint + character;
   }
   
   return doublePrint;
