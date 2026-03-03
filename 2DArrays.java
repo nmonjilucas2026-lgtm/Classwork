@@ -89,14 +89,14 @@ public class ArrayIntroAssignment {
 		System.out.println(gridNums2[gridNums2.length-1][0]);
 		
 		//7 Changes the last element in the last row of both arrays to -30 and then prints it
-		System.out.println(gridNums[gridNums.length-1][gridNums.length-1]);
-		System.out.println(gridNums2[gridNums2.length-1][gridNums2.length-1]);
+		System.out.println(gridNums[gridNums.length-1][gridNums[gridNums.length-1].length-1]);
+		System.out.println(gridNums2[gridNums2.length-1][gridNums2[gridNums2.length-1].length-1]);
 		
-		gridNums[gridNums.length-1][gridNums.length-1] = -30;
-		gridNums2[gridNums2.length-1][gridNums2.length-1] = -30;
+		gridNums[gridNums.length-1][gridNums[gridNums.length-1].length-1] = -30;
+		gridNums2[gridNums2.length-1][gridNums2[gridNums2.length-1].length-1] = -30;
 		
-		System.out.println(gridNums[gridNums.length-1][gridNums.length-1]);
-		System.out.println(gridNums2[gridNums2.length-1][gridNums2.length-1]);
+		System.out.println(gridNums[gridNums.length-1][gridNums[gridNums.length-1].length-1]);
+		System.out.println(gridNums2[gridNums2.length-1][gridNums2[gridNums2.length-1].length-1]);
 		
 		//8 Prints out all of the elements n the first row of both arrays
 			for (int i = 0; i < gridNums[0].length; i++) {
