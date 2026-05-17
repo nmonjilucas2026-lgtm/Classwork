@@ -14,7 +14,6 @@ public class RecursiveAlgorithms {
 
 		// Test binary search
 		int target = 5;
-
 		int result = binarySearch(arr, target, 0, arr.length - 1);
 
 		System.out.println("Index of " + target + ": " + result);
